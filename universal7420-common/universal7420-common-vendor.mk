@@ -105,34 +105,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/media/temperature_limit_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/temperature_limit_usb.spi \
     vendor/samsung/universal7420-common/proprietary/media/water_protection_usb.spi:$(TARGET_COPY_OUT_SYSTEM)/media/water_protection_usb.spi \
     vendor/samsung/universal7420-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/.clminfo:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/.clminfo \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_b1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_blob \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_clm.blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_clm.blob \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin_b1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_b1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_blob \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_mfg2.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg2.bin_b1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_b1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_blob \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram.txt \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_b0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_b0 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_b1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_b1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_wisol_b1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_b0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_b0 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_b1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_b1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_b1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_b1 \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/pdpcnt-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pdpcnt-conf.xml \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/plmn_delta_attaio.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_attaio.bin \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/plmn_delta_usacdma.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_usacdma.bin \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/plmn_delta_usagsm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_usagsm.bin \
+    vendor/samsung/universal7420-common/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4358A3_V0083.0138_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_murata.hcd \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4358A3_V0083.0138_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_semco.hcd \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4358A3_V0083.0138_semco3rd.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_semco3rd.hcd \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4358A3_V0083.0138.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138.hcd \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4358A3_V0083.0138_wisol.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_wisol.hcd \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4359B0_V0019.0000.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359B0_V0019.0000.hcd \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4359B1_V0105.0106.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359B1_V0105.0106.hcd \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4359B1_V0105.0106_wisol.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4359B1_V0105.0106_wisol.hcd \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/companion_2p2_master_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_2p2_master_setfile.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/companion_2p2_mode_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_2p2_mode_setfile.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/companion_fw_2p2_evt1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_fw_2p2_evt1.bin \
@@ -144,8 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/fimc_is_fw2_imx240.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2_imx240.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/nfc/sec_s3fwrn5p_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3fwrn5p_firmware.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/nfc/sec_s3fwrn5s_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3fwrn5s_firmware.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn81_firmware.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/ois_fw_dom.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_dom.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/ois_fw_sec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_sec.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/seiren_fw_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seiren_fw_dram.bin \
@@ -170,22 +152,53 @@ PRODUCT_PACKAGES += \
     libfloatingfeature \
     libhwjpeg \
     libprotobuf-cpp-lite-v29 \
+    libsecnativefeature \
     libsensorlistener \
     libuniplugin \
     libutils-v32 \
     libwrappergps \
+    libengmode_client \
+    libprotobuf-cpp-full-3.9.1 \
+    libril \
+    libsec-ril-dsds \
+    libsec-ril \
+    libsec_semRil \
+    libsecnativefeature \
+    libsecril-client \
+    libsemnativecarrierfeature \
+    libvkmanager_vendor \
     libwvhidl \
     libwvdrmengine \
+    vendor.samsung.hardware.radio.bridge@2.0 \
+    vendor.samsung.hardware.radio.channel@2.0 \
+    vendor.samsung.hardware.radio@2.0 \
+    vendor.samsung.hardware.radio@2.1 \
     gps.default \
     libagc_max \
     libhr \
     vendor.samsung.security.skeymaster@3.0 \
     keystore.mdfpp \
+    libengmode_client \
     libkeymaster_helper \
     libkeymaster_mdfpp \
+    libprotobuf-cpp-full-3.9.1 \
+    libril \
+    libsec-ril-dsds \
+    libsec-ril \
+    libsec_semRil \
+    libsecnativefeature \
+    libsecril-client \
+    libsemnativecarrierfeature \
     libskeymaster \
+    libvkmanager_vendor \
+    vendor.samsung.hardware.radio.bridge@2.0 \
+    vendor.samsung.hardware.radio.channel@2.0 \
+    vendor.samsung.hardware.radio@2.0 \
+    vendor.samsung.hardware.radio@2.1 \
+    mtu-conf \
     lpm \
     cbd \
     gpsd \
     lhd \
-    android.hardware.drm@1.1-service.widevine
+    android.hardware.drm@1.1-service.widevine \
+    rild
